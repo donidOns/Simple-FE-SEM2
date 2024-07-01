@@ -106,16 +106,16 @@ a:hover {
     padding: 10px;
 }
 
-.qrku{
+.qrku {
     padding-top: 10px;
 }
 
-.a1{
+.a1 {
     text-align: left;
     padding-left: 20px !important;
 }
 
-.a2{
+.a2 {
     text-align: left;
     padding-left: 20px !important;
 }
@@ -212,24 +212,24 @@ a:hover {
 }
 
 /* CSSS DATA */
-.datacontent{
+.datacontent {
     height: 1000px;
-    padding: 50px 50px !important;
+    padding: 20px 50px !important;
 }
 
-.btnimport{
+.btnimport {
     margin: 10px;
     margin-left: 0px;
 }
 
-.datakiri{
+.datakiri {
     width: 420px;
     background-color: #D9EEF0;
     padding: 20px;
     border-radius: 20px;
 }
 
-.datakanan{
+.datakanan {
     float: right;
     background-color: #D9EEF0;
     width: 420px;
@@ -237,11 +237,11 @@ a:hover {
     border-radius: 20px;
 }
 
-.caridata{
+.caridata {
     display: flex;
 }
 
-.bi-search{
+.bi-search {
     background-color: #ffffff;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -250,12 +250,12 @@ a:hover {
     margin-left: 0px;
 }
 
-.sbmt{
+.sbmt {
     width: 420px;
     text-align: center;
 }
 
-.btnsbmt{
+.btnsbmt {
     margin: 10px;
     width: 284px;
     font-weight: bolder !important;
@@ -263,36 +263,140 @@ a:hover {
     background-color: #40909A !important;
 }
 
-.wrapdata{
+.wrapdata {
     height: 100%;
     background-color: #D9EEF0;
     margin-left: 0;
     margin-right: 0;
 }
 
-.tabledatahistory{
+.tabledatahistory {
     margin-bottom: 0 !important;
 }
 
-.wrapdata{
+.wrapdata {
     padding: 20px;
     border-radius: 20px;
     height: 280px;
     overflow-y: scroll;
 }
 
-tr:first-child th:first-child{
+tr:first-child th:first-child {
     border-top-left-radius: 10px;
 }
 
-tr:first-child th:last-child{
+tr:first-child th:last-child {
     border-top-right-radius: 10px;
 }
 
-tr:last-child td:first-child{
+tr:last-child td:first-child {
     border-bottom-left-radius: 10px;
 }
 
-tr:last-child td:last-child{
+tr:last-child td:last-child {
     border-bottom-right-radius: 10px;
+}
+
+.kontenrekap {
+    padding: 20px 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.searchrekap {
+    background-color: #40909A;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.rekaptab {
+    background-color: #D9EEF0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.pencapaian {
+    display: inline-block;
+    padding: 0 15px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.namaMHS li {
+    font-size: medium;
+    margin-top: 0;
+}
+
+.namaMHS ul {
+    margin-top: 22px;
+    padding-left: 20px;
+}
+
+.containerlogin {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flogin {
+    width: 350px;
+    background-color: #D9EEF0;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px hsla(0, 0%, 0%, 0.328);
+}
+
+.captlogin p {
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+.captlogin {
+    background-color: #308D98;
+    padding: 5px;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.alog {
+    font-size: small;
+    text-align: center;
+}
+
+.btnlog {
+    text-align: center;
+}
+
+.logkanan{
+    background-color: #40909A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.captreg{
+    background-color: #308D98;
+    padding: 5px;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.captreg p{
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #000000;
 }

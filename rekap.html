@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>23.01.4972 - Rekap</title>
+</head>
+
+<body>
+    <div class="header">
+        <p>AMIKOM YOGYAKARTA</p>
+    </div>
+    <div class="aside">
+        <div class="nav">
+            <div class="col-3 pprofile"><img src="/asset/PROFILE.png" alt=""></div>
+            <div class="col-9 namaMHS">
+                <ul>
+                    <li>Ahmad Doni</li>
+                    <li>23.01.4972</li>
+                </ul>
+            </div>
+        </div>
+        <ul>
+            <li><a href="/index.html"><i class="bi bi-house-fill"></i>Dashboard</a></li>
+            <li><a href="/data.html"><i class="bi bi-database-fill-add"></i>Tambah Data</a></li>
+            <li><a href="#"><i class="bi bi-file-earmark-text-fill"></i>Rekap Nilai</a></li>
+            <li><a href="#"><i class="bi bi-x-square-fill"></i>Keluar</a></li>
+        </ul>
+    </div>
+    <!-- KONTEN KANAN -->
+    <div class="main">
+        <div class="navc">Rekap Nilai Mahasiswa</div>
+        <!-- ISI KONTEN KANAN -->
+        <div class="kontenrekap">
+            <p class="semsteran" style="float: right;">Semester Genap 2023/2024</p>
+            <div class="searchrekap">
+                <div class="rekapcapt" style="float: left;">
+                    <div class="caridata">
+                        <i class="bi bi-search"></i>
+                        <input type="text" class="form-control rounded-0 rounded-end-1" placeholder="Cari Mahasiswa">
+                    </div>
+                </div>
+                <div class="rekapkelas" style="float: right;">
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Pilih
+                            Kelas</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">23WEB1</a></li>
+                            <li><a class="dropdown-item" href="#">23WEB2</a></li>
+                            <li><a class="dropdown-item" href="#">23WEB3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- TABLE REKAP KONTEN -->
+            <div class="tablerekap mt-5 rekaptab">
+                <table class="table mt-3 mb-3 table-striped">
+                    <thead>
+                        <tr>
+                            <th class="text-start">NO</th>
+                            <th class="text-start">NAMA</th>
+                            <th class="text-start">NIM</th>
+                            <th class="text-start">Kelas</th>
+                            <th class="hadir" style="text-align: center;">% Kehadiran</th>
+                            <th class="text-start">Tugas</th>
+                            <th class="text-start">Kuis</th>
+                            <th class="text-start">Responsi</th>
+                            <th class="text-start">UTS</th>
+                            <th class="text-start">UAS</th>
+                            <th class="text-center">Pencapaian</th>
+                            <th class="text-center"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-start">1</td>
+                            <td class="text-start">Ahmad Doni</td>
+                            <td class="text-start">23.01.4972</td>
+                            <td class="text-start">WEB1</td>
+                            <td class="hadir" style="text-align: center;">81%</td>
+                            <td class="text-start">81</td>
+                            <td class="text-start">88</td>
+                            <td class="text-start">100</td>
+                            <td class="text-start">100</td>
+                            <td class="text-start">100</td>
+                            <td class="text-center">
+                                <p class="pencapaian bg-primary">A</p>
+                            </td>
+                            <td class="text-center"><a class="modaledit" data-bs-toggle="modal" data-bs-target="#myModal">Edit</a></td>
+                        </tr>
+                        <tr>
+                            <td class="text-start">1</td>
+                            <td class="text-start">Ahmad Doni</td>
+                            <td class="text-start">23.01.4972</td>
+                            <td class="text-start">WEB1</td>
+                            <td class="hadir" style="text-align: center;">81%</td>
+                            <td class="text-start">81</td>
+                            <td class="text-start">88</td>
+                            <td class="text-start">100</td>
+                            <td class="text-start">100</td>
+                            <td class="text-start">100</td>
+                            <td class="text-center">
+                                <p class="pencapaian bg-primary">A</p>
+                            </td>
+                            <td class="text-center"><a class="modaledit" data-bs-toggle="modal" data-bs-target="#myModal">Edit</a></td>
+                        </tr>
+                        <tr>
+                            <td class="text-start">1</td>
+                            <td class="text-start">Ahmad Doni</td>
+                            <td class="text-start">23.01.4972</td>
+                            <td class="text-start">WEB1</td>
+                            <td class="hadir" style="text-align: center;">81%</td>
+                            <td class="text-start">81</td>
+                            <td class="text-start">88</td>
+                            <td class="text-start">100</td>
+                            <td class="text-start">100</td>
+                            <td class="text-start">100</td>
+                            <td class="text-center">
+                                <p class="pencapaian bg-primary">A</p>
+                            </td>
+                            <td class="text-center"><a class="modaledit" data-bs-toggle="modal" data-bs-target="#myModal">Edit</a></td>
+                        </tr>
+                        <tr>
+                            <td class="text-start">1</td>
+                            <td class="text-start">Ahmad Doni</td>
+                            <td class="text-start">23.01.4972</td>
+                            <td class="text-start">WEB1</td>
+                            <td class="hadir" style="text-align: center;">81%</td>
+                            <td class="text-start">81</td>
+                            <td class="text-start">88</td>
+                            <td class="text-start">100</td>
+                            <td class="text-start">100</td>
+                            <td class="text-start">100</td>
+                            <td class="text-center">
+                                <p class="pencapaian bg-primary">A</p>
+                            </td>
+                            <td class="text-center"><a class="modaledit" data-bs-toggle="modal" data-bs-target="#myModal">Edit</a></td>
+                        </tr>
+                        <tr>
+                            <td class="text-start">1</td>
+                            <td class="text-start">Ahmad Doni</td>
+                            <td class="text-start">23.01.4972</td>
+                            <td class="text-start">WEB1</td>
+                            <td class="hadir" style="text-align: center;">81%</td>
+                            <td class="text-start">81</td>
+                            <td class="text-start">88</td>
+                            <td class="text-start">100</td>
+                            <td class="text-start">100</td>
+                            <td class="text-start">100</td>
+                            <td class="text-center">
+                                <p class="pencapaian bg-primary">A</p>
+                            </td>
+                            <td class="text-center"><a class="modaledit" data-bs-toggle="modal" data-bs-target="#myModal">Edit</a></td>
+                        </tr>
+                        <tr>
+                            <td class="text-start">1</td>
+                            <td class="text-start">Ahmad Doni</td>
+                            <td class="text-start">23.01.4972</td>
+                            <td class="text-start">WEB1</td>
+                            <td class="hadir" style="text-align: center;">81%</td>
+                            <td class="text-start">81</td>
+                            <td class="text-start">88</td>
+                            <td class="text-start">100</td>
+                            <td class="text-start">100</td>
+                            <td class="text-start">100</td>
+                            <td class="text-center">
+                                <p class="pencapaian bg-primary">A</p>
+                            </td>
+                            <td class="text-center"><a class="modaledit" data-bs-toggle="modal" data-bs-target="#myModal">Edit</a></td>
+                        </tr>
+                        <tr>
+                            <td class="text-start">1</td>
+                            <td class="text-start">Ahmad Doni</td>
+                            <td class="text-start">23.01.4972</td>
+                            <td class="text-start">WEB1</td>
+                            <td class="hadir" style="text-align: center;">81%</td>
+                            <td class="text-start">81</td>
+                            <td class="text-start">88</td>
+                            <td class="text-start">100</td>
+                            <td class="text-start">100</td>
+                            <td class="text-start">100</td>
+                            <td class="text-center">
+                                <p class="pencapaian bg-primary">A</p>
+                            </td>
+                            <td class="text-center"><a class="modaledit" data-bs-toggle="modal" data-bs-target="#myModal">Edit</a></td>
+                        </tr>
+                        <tr>
+                            <td class="text-start">1</td>
+                            <td class="text-start">Ahmad Doni</td>
+                            <td class="text-start">23.01.4972</td>
+                            <td class="text-start">WEB1</td>
+                            <td class="hadir" style="text-align: center;">81%</td>
+                            <td class="text-start">81</td>
+                            <td class="text-start">88</td>
+                            <td class="text-start">100</td>
+                            <td class="text-start">100</td>
+                            <td class="text-start">100</td>
+                            <td class="text-center">
+                                <p class="pencapaian bg-primary">A</p>
+                            </td>
+                            <td class="text-center"><a class="modaledit" data-bs-toggle="modal" data-bs-target="#myModal">Edit</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="exportdata text-end"><a href="#">Export CSV</a></div>
+                <!-- MODAL -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">Update Nilai</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <form>
+                                    <div class="row">
+                                        <div class="mb-3 col-12">
+                                            <label for="recipient-name" class="col-form-label">NIM</label>
+                                            <input type="text" class="form-control disabled-color" disabled
+                                                value="23.01.4972" />
+                                        </div>
+                                        <div class="mb-3 col-12">
+                                            <label for="recipient-name" class="col-form-label">NIM</label>
+                                            <input type="text" class="form-control disabled-color" disabled
+                                                value="Ahmad Doni" />
+                                        </div>
+                                        <div class="mb-3 col-6">
+                                            <label for="recipient-name" class="col-form-label">Kehadiran</label>
+                                            <input type="text" class="form-control" value="14" />
+                                        </div>
+                                        <div class="mb-3 col-6">
+                                            <label for="recipient-name" class="col-form-label">Tugas</label>
+                                            <input type="text" class="form-control" value="100" />
+                                        </div>
+                                        <div class="mb-3 col-6">
+                                            <label for="recipient-name" class="col-form-label">Kuis</label>
+                                            <input type="text" class="form-control" value="100" />
+                                        </div>
+                                        <div class="mb-3 col-6">
+                                            <label for="recipient-name" class="col-form-label">Responsi</label>
+                                            <input type="text" class="form-control" value="100" />
+                                        </div>
+                                        <div class="mb-3 col-6">
+                                            <label for="recipient-name" class="col-form-label">UTS</label>
+                                            <input type="text" class="form-control" value="100" />
+                                        </div>
+                                        <div class="mb-3 col-6">
+                                            <label for="recipient-name" class="col-form-label">UAS</label>
+                                            <input type="text" class="form-control" value="100" />
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Update</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
